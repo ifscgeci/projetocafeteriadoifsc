@@ -1,3 +1,40 @@
-body{background-color: red;
+body {
+    background-color: rgba(255, 0, 111, 0.533);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+div {
+    border: 1px solid black;
+    /* margem interna*/
+    padding: 30px;
+}
+.container{
+    max-width: 900px;
+    margin:auto; /*centraliza a propria div*/
+    padding:0;
+}
+
+/* chama a div com class="topo" */
+.topo {
+    background-color: rgb(220, 240, 245);
+    text-align: center;
+}
+
+.nav {
+    background-color: rgb(200, 80, 255);
+    display:flex;
+    justify-content: space-around;
+}
+
+.principal {
+    background-color: chocolate;
+}
+
+.rodape {
+    background-color: brown;
+}
+
+/*colors.co/ */
+/* adobe colors */
+/* paletton */
