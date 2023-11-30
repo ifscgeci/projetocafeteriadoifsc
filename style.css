@@ -4,15 +4,21 @@ body {
 
 }
 
+:root {
+    scroll-behavior: smooth;
+}
+
 div {
     border: 1px solid black;
     /* margem interna*/
     padding: 30px;
 }
-.container{
+
+.container {
     max-width: 900px;
-    margin:auto; /*centraliza a propria div*/
-    padding:0;
+    margin: auto;
+    /*centraliza a propria div*/
+    padding: 0;
 }
 
 /* chama a div com class="topo" */
@@ -22,8 +28,8 @@ div {
 }
 
 .nav {
-    background-color: rgb(200, 80, 255);
-    display:flex;
+    background-color: rgb(27, 170, 39);
+    display: flex;
     justify-content: space-around;
 }
 
@@ -32,9 +38,33 @@ div {
 }
 
 .rodape {
-    background-color: brown;
+    background-color: rgb(19, 105, 84);
 }
 
 /*colors.co/ */
 /* adobe colors */
 /* paletton */
+.cardapio {
+    background-color: rgb(88, 104, 19);
+
+
+
+}
+
+/* tabela*/
+table {
+    width: 100%;
+    border: 1px solid rgb(121, 34, 138);
+}
+
+td {
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+th {
+    background-color: black;
+    color: aquamarine;
+    padding: 20px;
+}
